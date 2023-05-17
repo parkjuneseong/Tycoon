@@ -13,6 +13,12 @@
 		32666E13299887B900C1F04C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32666E11299887B900C1F04C /* GameViewController.swift */; };
 		32666E14299887B900C1F04C /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32666E12299887B900C1F04C /* GameViewController.xib */; };
 		32666E1629988A9D00C1F04C /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32666E1529988A9D00C1F04C /* Image.xcassets */; };
+		3F3667DD2999F54B00C0E102 /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3667DB2999F54B00C0E102 /* RuleViewController.swift */; };
+		3F3667DE2999F54B00C0E102 /* RuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3667DC2999F54B00C0E102 /* RuleViewController.xib */; };
+		3F3DC5002998CCEA008F9399 /* ExplainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DC4FE2998CCEA008F9399 /* ExplainViewController.swift */; };
+		3F3DC5012998CCEA008F9399 /* ExplainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3DC4FF2998CCEA008F9399 /* ExplainViewController.xib */; };
+		3F3DC5042998CD04008F9399 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DC5022998CD04008F9399 /* GameOverViewController.swift */; };
+		3F3DC5052998CD04008F9399 /* GameOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3DC5032998CD04008F9399 /* GameOverViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		32666E11299887B900C1F04C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		32666E12299887B900C1F04C /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 		32666E1529988A9D00C1F04C /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		3F3667DB2999F54B00C0E102 /* RuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
+		3F3667DC2999F54B00C0E102 /* RuleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuleViewController.xib; sourceTree = "<group>"; };
+		3F3DC4FE2998CCEA008F9399 /* ExplainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainViewController.swift; sourceTree = "<group>"; };
+		3F3DC4FF2998CCEA008F9399 /* ExplainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExplainViewController.xib; sourceTree = "<group>"; };
+		3F3DC5022998CD04008F9399 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		3F3DC5032998CD04008F9399 /* GameOverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameOverViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,12 @@
 				32666E0B2998866100C1F04C /* Info.plist */,
 				32666E11299887B900C1F04C /* GameViewController.swift */,
 				32666E12299887B900C1F04C /* GameViewController.xib */,
+				3F3DC4FE2998CCEA008F9399 /* ExplainViewController.swift */,
+				3F3DC4FF2998CCEA008F9399 /* ExplainViewController.xib */,
+				3F3DC5022998CD04008F9399 /* GameOverViewController.swift */,
+				3F3DC5032998CD04008F9399 /* GameOverViewController.xib */,
+				3F3667DB2999F54B00C0E102 /* RuleViewController.swift */,
+				3F3667DC2999F54B00C0E102 /* RuleViewController.xib */,
 				32666E1529988A9D00C1F04C /* Image.xcassets */,
 			);
 			path = Tycoon;
@@ -125,8 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3DC5052998CD04008F9399 /* GameOverViewController.xib in Resources */,
+				3F3DC5012998CCEA008F9399 /* ExplainViewController.xib in Resources */,
 				32666E0A2998866100C1F04C /* LaunchScreen.storyboard in Resources */,
 				32666E1629988A9D00C1F04C /* Image.xcassets in Resources */,
+				3F3667DE2999F54B00C0E102 /* RuleViewController.xib in Resources */,
 				32666E14299887B900C1F04C /* GameViewController.xib in Resources */,
 				32666E072998866100C1F04C /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3DC5042998CD04008F9399 /* GameOverViewController.swift in Sources */,
 				32666DFE2998865F00C1F04C /* AppDelegate.swift in Sources */,
+				3F3667DD2999F54B00C0E102 /* RuleViewController.swift in Sources */,
+				3F3DC5002998CCEA008F9399 /* ExplainViewController.swift in Sources */,
 				32666E13299887B900C1F04C /* GameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
